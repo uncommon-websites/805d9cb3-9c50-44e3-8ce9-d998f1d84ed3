@@ -1,24 +1,24 @@
 <script lang="ts">
   const stats = [
     {
-      label: "30+ People",
-      desc: "You're a small, but mighty team of curious problem-solvers and explorers. With a versatile, Swiss-knife mentality, we thrive on tackling diverse challenges. Our core team is tight-knit, yet we seamlessly tap into a wider network of experts when needed. Here, theory meets practice, and together, we get things done.",
-      img: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200"
+      label: "2,000+ Companies",
+      desc: "Over 2,000 member companies and 4,000+ individual business leaders participate in LIDE's exclusive network. Our members collectively represent over 40% of Brazil's private GDP, making LIDE the most influential business organization in Latin America.",
+      img: "/generated/image-diverse-group-of-ceos-and-business-leade-1765529546897-4.webp"
     },
     {
-      label: "14+ Awards",
-      desc: "Our work speaks for itself—recognized internationally, we've already earned some awards. These accolades reflect the passion and innovation we pour into every project, pushing boundaries and delivering results that make an impact.",
-      img: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=200"
+      label: "19 Countries",
+      desc: "LIDE operates across 19 countries on 5 continents with offices and representation units spanning from Brazil to the United States, Europe, Middle East, and Asia. Our global presence includes 28 national units in Brazil and 21 international units worldwide.",
+      img: "/generated/image-international-business-forum-with-flags--1765529560209-9.webp"
     },
     {
-      label: "CGN, BLN, Remote",
-      desc: "Headquartered in Cologne, with an expanding team in Berlin, we also embrace remote work. Our colleagues span across cities like Barcelona, Stuttgart, Munich, and more, bringing a mix of perspectives and expertise to everything we do. Whether in the office or working remotely, we stay connected and collaborative.",
-      img: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=200"
+      label: "39 Sectors",
+      desc: "From agribusiness to technology, energy to healthcare, LIDE covers 39 economic sectors. Each sector is led by prominent business figures and authorities, including former ministers and industry leaders who drive meaningful discussions and policy influence.",
+      img: "/generated/image-business-leaders-shaking-hands-at-a-sect-1765529544521-3.webp"
     },
     {
-      label: "B-Corp",
-      desc: "We've officially joined the ranks of B-Corp certified companies. This means we meet the highest standards of social and environmental performance, accountability, and transparency. We're proud to use business as a force for good, ensuring our impact extends beyond just profit.",
-      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/B_Corp_Logo.svg/1200px-B_Corp_Logo.svg.png" // Placeholder
+      label: "40% of GDP",
+      desc: "LIDE's Brazilian members collectively represent over 40% of Brazil's private GDP. This unprecedented economic influence allows our network to shape policy, drive innovation, and contribute significantly to the socioeconomic development of nations.",
+      img: "/generated/image-elegant-business-forum-with-ceos-and-exe-1765529536398-0.webp"
     }
   ];
 </script>
@@ -26,7 +26,7 @@
 <section class="py-24 px-6 md:px-12 bg-white border-t border-gray-100">
   <div class="mb-16">
     <p class="text-gray-500 max-w-xl">
-      Curious about who we are? Here's a snapshot of the team, our achievements, and the milestones we're proud of.
+      LIDE's impact extends far beyond networking. Here's a snapshot of our global reach, economic influence, and the scale of leadership we bring together.
     </p>
   </div>
 

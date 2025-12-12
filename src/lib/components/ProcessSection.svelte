@@ -3,31 +3,31 @@
 
   const steps = [
     {
-      id: "discover",
-      title: "Discover Novel Opportunities",
-      text: "The right problem is the one worth solving. We quickly uncover actionable opportunities through data and business insights, ensuring that every discovery is grounded in what matters most for your business and your users.",
-      tags: ["Business & Market Research", "Data Driven Insights", "UX Audits", "Customer Journey Mapping", "Brand Perception Analysis", "Technical Assessment"],
+      id: "network",
+      title: "Access an Elite Network",
+      text: "Connect with 2,000+ member companies and 4,000+ business leaders who collectively represent over 40% of Brazil's private GDP. Gain access to CEOs and C-level executives across 39 economic sectors who can transform your business trajectory.",
+      tags: ["Exclusive CEO Forums", "C-Level Connections", "Sectorial Networks", "International Partnerships", "Strategic Alliances", "Peer-to-Peer Learning"],
       graphic: "lines"
     },
     {
-      id: "envision",
-      title: "Envision Innovative Strategies",
-      text: "Great strategies don't just come from ideas—they come from clear, actionable plans. We create pragmatic roadmaps that balance ambition with feasibility, focusing on what will drive immediate and long-term impact for both business and users.",
-      tags: ["CX & Product Strategy", "Vision & Roadmapping", "Value Proposition Design", "Northstar Metric Framework", "Brand Strategy & Positioning", "Technical Solution Design"],
+      id: "expand",
+      title: "Expand Globally",
+      text: "Leverage LIDE's presence across 19 countries and 5 continents. Participate in international forums in New York, Paris, London, Dubai, Tokyo, and beyond. Build bilateral relationships that open new markets and opportunities for your business.",
+      tags: ["Global Forums", "International Events", "Market Expansion", "Cross-Border Partnerships", "Bilateral Relations", "Investment Opportunities"],
       graphic: "curve"
     },
     {
-      id: "build",
-      title: "Build Engaging Touchpoints",
-      text: "We turn strategy into action—fast and efficiently. Whether designing intuitive interfaces, visual identities, or building scalable platforms, we focus on building holistic experiences that are both joyful and effective.",
-      tags: ["UX & UI Design", "Information Architecture", "App & Web Design", "Design Systems", "Content Strategy", "Agile Software Engineering"],
+      id: "influence",
+      title: "Shape Economic Policy",
+      text: "Join sectorial committees led by former ministers, industry authorities, and thought leaders. Participate in discussions that influence economic policy and drive socioeconomic development. Your voice matters in shaping the future of business.",
+      tags: ["Policy Influence", "Sectorial Leadership", "Economic Forums", "Government Relations", "Industry Advocacy", "Thought Leadership"],
       graphic: "circle-top"
     },
     {
-      id: "elevate",
-      title: "Elevate Delivery Capabilities",
-      text: "We make sure teams can deliver better outcomes, faster. By evolving collaborative workflows, upskilling teams, and implementing the right tools, we help you scale with confidence and consistency.",
-      tags: ["AI Consulting", "QA & Delivery", "Process Optimization", "Performance Analytics", "Continuous Improvement", "Change Management"],
+      id: "grow",
+      title: "Accelerate Business Growth",
+      text: "Transform connections into concrete business opportunities. Through exclusive events, strategic forums, and trusted peer relationships, LIDE members generate partnerships, close deals, and accelerate growth in ways impossible to achieve alone.",
+      tags: ["Business Development", "Partnership Creation", "Deal Flow", "Market Intelligence", "Strategic Positioning", "Growth Acceleration"],
       graphic: "circle-waves"
     }
   ];
@@ -71,7 +71,7 @@
       <div class="space-y-8">
         {#each steps as step, i}
           <div class="transition-opacity duration-500 {i === activeStep ? 'opacity-100' : 'opacity-30'}">
-            <p class="text-xl md:text-2xl font-light mb-1">People work with us to</p>
+            <p class="text-xl md:text-2xl font-light mb-1">Members join LIDE to</p>
             <h2 class="text-2xl md:text-3xl font-bold">{step.title}</h2>
           </div>
         {/each}
